@@ -35,13 +35,6 @@ The heart of ReplyAI - a lightweight Chrome extension that integrates directly i
 - Configuration and settings management
 - User preferences and customization options
 
-## 📸 Extension in Action
-
-<!-- Add your screenshot here -->
-
-![ReplyAI Gmail Integration](path/to/your/screenshot.png)
-_The ReplyAI button seamlessly integrated into Gmail's interface_
-
 ## 🚀 Getting Started
 
 ### Prerequisites
