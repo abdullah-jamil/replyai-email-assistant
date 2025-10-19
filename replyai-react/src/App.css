@@ -1,0 +1,100 @@
+/* App.css */
+
+/* Body and container styling */
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Main container */
+.MuiContainer-root {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 2rem 2.5rem;
+  margin-top: 2rem;
+}
+
+/* Typography styling */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: #1e1e2f;
+}
+
+.MuiTypography-root {
+  color: #1e1e2f;
+}
+
+/* Input fields styling */
+.MuiInputBase-root,
+.MuiOutlinedInput-root {
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #4f46e5; /* Indigo accent */
+}
+
+/* Select field styling */
+.MuiSelect-outlined {
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+/* Button styling */
+.MuiButton-contained {
+  background: #4f46e5;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.75rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.MuiButton-contained:hover {
+  background: #3730a3;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(79, 70, 229, 0.4);
+}
+
+.MuiButton-outlined {
+  border-color: #4f46e5;
+  color: #4f46e5;
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.MuiButton-outlined:hover {
+  background: rgba(79, 70, 229, 0.1);
+  transform: translateY(-2px);
+}
+
+/* CircularProgress alignment */
+.MuiCircularProgress-root {
+  color: #fff;
+}
+
+/* Error message styling */
+.MuiTypography-colorError {
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+/* Generated reply box */
+.MuiTextField-root {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 0.25rem;
+}
